@@ -1,0 +1,158 @@
+@-webkit-document url-prefix(http://google.com),
+  url-prefix(https://google.com),
+  url-prefix(http://www.google.com),
+  url-prefix(https://www.google.com) {
+	* {
+		font-family: -apple-system, 'Helvetica Neue', Helvetica, 'Nimbus Sans L',
+			Arial, 'Liberation Sans', 'PingFang SC', 'Hiragino Sans GB',
+			'Source Han Sans CN', 'Source Han Sans SC', 'Microsoft YaHei',
+			'Wenquanyi Micro Hei', 'WenQuanYi Zen Hei', 'ST Heiti', SimHei,
+			'WenQuanYi Zen Hei Sharp', sans-serif;
+	}
+
+	::-webkit-scrollbar {
+		width: 6px;
+		height: 10px;
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	::-webkit-scrollbar-track {
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 3px;
+		background-color: rgba(0, 0, 0, 0.2);
+		transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		/* Firefox 4 */
+		-webkit-transition: all 0.4s ease;
+		/* Safari Ã¥ÂÂ Chrome */
+		-o-transition: all 0.4s ease;
+		/* Opera */
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		border-radius: 3px;
+		background-color: rgba(0, 0, 0, 0.4);
+		transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		/* Firefox 4 */
+		-webkit-transition: all 0.4s ease;
+		/* Safari Ã¥ÂÂ Chrome */
+		-o-transition: all 0.4s ease;
+		/* Opera */
+	}
+
+	#myuser {
+		transform: scale(0.7);
+	}
+
+	/* 显示搜索菜单 */
+	.hdtb-td-h {
+		display: block !important;
+	}
+
+	#hdtbMenus {
+		top: 80px !important;
+	}
+
+	#hdtb-tls {
+		display: none !important;
+	}
+
+	/* 工具栏移动位置 */
+	.hdtb-mn-hd {
+		top: -58px !important;
+		left: 640px !important;
+		z-index: 99999 !important;
+	}
+
+	/* 工具栏打开的列表位置 */
+	.hdtb-mn-o {
+		left: 850px !important;
+	}
+
+	* {
+		font-family: -apple-system, 'Helvetica Neue', Helvetica, 'Nimbus Sans L',
+			Arial, 'Liberation Sans', 'PingFang SC', 'Hiragino Sans GB',
+			'Source Han Sans CN', 'Source Han Sans SC', 'Microsoft YaHei',
+			'Wenquanyi Micro Hei', 'WenQuanYi Zen Hei', 'ST Heiti', SimHei,
+			'WenQuanYi Zen Hei Sharp', sans-serif;
+	}
+
+	::-webkit-scrollbar {
+		width: 6px;
+		height: 10px;
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	::-webkit-scrollbar-track {
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 3px;
+		background-color: rgba(0, 0, 0, 0.2);
+		transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		/* Firefox 4 */
+		-webkit-transition: all 0.4s ease;
+		/* Safari Ã¥ÂÂ Chrome */
+		-o-transition: all 0.4s ease;
+		/* Opera */
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		border-radius: 3px;
+		background-color: rgba(0, 0, 0, 0.4);
+		transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		/* Firefox 4 */
+		-webkit-transition: all 0.4s ease;
+		/* Safari Ã¥ÂÂ Chrome */
+		-o-transition: all 0.4s ease;
+		/* Opera */
+	}
+
+	#myuser {
+		transform: scale(0.7);
+	}
+
+	/* 显示搜索菜单 */
+	.hdtb-td-h {
+		display: block !important;
+	}
+
+	#hdtbMenus {
+		top: 80px !important;
+	}
+
+	#hdtb-tls {
+		display: none !important;
+	}
+
+	/* 工具栏移动位置 */
+	.hdtb-mn-hd {
+		top: -58px !important;
+		left: 450px !important;
+		z-index: 99999 !important;
+	}
+
+	/* 工具栏打开的列表位置与样式*/
+	.hdtb-mn-o {
+		margin: 10px 0px !important;
+		left: 670px !important;
+		border-radius: 5px;
+		padding: 6px 10px !important;
+		box-shadow: -1px 1px 9px 0px #999;
+		transition: all 0.8s;
+	}
+
+	/* 设置按钮位置调整 */
+	#ab_options {
+		position: absolute;
+		top: 18px;
+		right: 223px;
+	}
+}
